@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/land_css.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./user_interface/vendors/images/favicon-32x32.png"></a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <div id="google_translate_element"></div>
+                </li>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="/pages/section.html">Section</a></li>
+                <li><a href="#facility">Facility</a></li>
+                 <a href="./pages/login.html"> 
+                    <li><button class="log">Login</button>
+               </a> 
+                </li>
+            </ul>
+        </nav>
+        <div class="fas fa-bars"></div>
+        <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    // pageLanguage: 'en',
+                    autoDisplay: 'true',
+                    includedLanguages: 'en,hi,ta',
+                    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+                }, 'google_translate_element');
+            }
+        </script>
+        <style>
+            .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+                z-index: 9724790009779 !important;
+                top: 0;
+                left: unset;
+                right: -5px;
+                display: none !important;
+                border-radius: 50%;
+                /* border: 2px solid gold; */
+            }
+
+            .VIpgJd-ZVi9od-aZ2wEe-OiiCO {
+                width: 80px;
+                height: 80px;
+            }
+
+            /*hide google translate link | logo | banner-frame */
+            .goog-logo-link,
+            .gskiptranslate,
+            .goog-te-gadget span,
+            .goog-te-banner-frame,
+            #goog-gt-tt,
+            .goog-te-balloon-frame,
+            div#goog-gt- {
+                display: none !important;
+            }
+
+            .goog-te-gadget {
+                color: transparent !important;
+                font-size: 0px;
+            }
+
+            .goog-text-highlight {
+                background: none !important;
+                box-shadow: none !important;
+            }
+            .goog-te-combo option{
+                background-color: #333;
+            }
+
+            /*google translate Dropdown */
+
+            #google_translate_element select {
+                font-size: 2rem;
+                background: #f6edfd00;
+                color: #CBA76F;
+                border: none;
+                border-radius: 3px;
+                padding: 6px 8px
+            }
+        </style>
+    </header>
+
+    <!-- home section begins -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>sculpting legal strategies for<br>a brighter future</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Chat Bot</h3>
+                <p>Providing You the world class experience with the chat bot which alnswer all your law related queries.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Private</h3>
+                <p>Your data and chats are encrypted and kept safe and can't be accessed or used by any other then you.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-gavel fa-flip-horizontal"></i>
+                <h3>Legal Protection</h3>
+                <p>You are provided with the correct and the great consultancy with our great reknowned advocates.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- home section ends-->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <h1 class="heading">about us</h1>
+        <h3 class="title">Want to know who we are?</h3>
+        <div class="row">
+            <div class="content">
+                <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ex.</h3> -->
+                <p>Our website serves as the digital gateway for legal professionals and their prospective clients. It provides an organized platform where attorneys can showcase their expertise, services, and previous case successes. Users navigating the
+                    site can easily understand the areas of law the consultancy specializes in, be it corporate law, personal injury, family matters, or any other domain. Integrating features such as client testimonials, case studies, and frequently asked
+                    legal questions can build trust and demonstrate credibility. <br>Furthermore, essential components like contact forms, online appointment scheduling, and a blog section with regular legal updates can foster client engagement and keep
+                    the audience informed. The website's design should prioritize user-friendliness and mobile responsiveness, ensuring easy accessibility for clients on the go. Security features, especially for data privacy, are paramount given the sensitive
+                    nature of legal matters. In essence, a law consultancy website is not just a business card in the digital realm but a comprehensive tool that facilitates client acquisition, engagement, and education in the ever-evolving legal landscape.</p>
+                <!-- <a href="#"><button>Learn More</button></a> -->
+            </div>
+            <div class="image">
+                <img src="images/law.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- course section starts -->
+
+    <secion id="facility" class="course">
+        <h1 class="heading">Our Facility</h1>
+        <h3 class="title">Upgrade Your Knowledge with Our Facility</h3>
+
+        <div class="box-container">
+            <a href="/pages/land_lawyer_det.html">
+            <div class="box">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>Lawyer</h3>
+                <p>Our Reknowned advocates assisting You.</p>
+            </div></a>
+
+            <div class="box">
+            <a href="/pages/land_typewriter_det.html">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>typewriter</h3>
+                <p>Our Reknowned typewriter assisting You.</p>
+            </div></a>
+
+            <div class="box">
+            <a href="/pages/land_arbitraries_det.html">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>arbitraries</h3>
+                <p>Our Reknowned arbitraries assisting You.</p>
+            </div></a>
+
+            <div class="box">
+            <a href="/pages/land_mediaters_det.html">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>mediaters</h3>
+                <p>Our Reknowned mediaters assisting You.</p>
+            </div></a>
+
+            <div class="box">
+            <a href="/pages/land_notaries_det.html">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>notaries</h3>
+                <p>Our Reknowned notaries assisting You.</p>
+            </div></a>
+
+            <div class="box">
+            <a href="/pages/land_documantator_det.html">
+                <i class="fa-solid fa-file-contract"></i>
+                <h3>documentator</h3>
+                <p>Our Reknowned documentator assisting You.</p>
+            </div></a>
+        </div>
+
+    </secion>
+
+    <!-- course section ends -->
+
+    <!-- facility for lawyer starts -->
+    <secion class="course">
+        <h1 class="heading">Our Facility to lawyer</h1>
+        <h3 class="title">Upgrade Your Knowledge with Our Facility</h3>
+    </secion>
+    <section class="facility-lawyer" id="advocate">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img">
+                        <i class="fa-solid fa-users" id="fas1"></i>
+                        <img src="img1" alt="" draggable="false">
+
+                    </div>
+                    <h2>More No of<br>Clients</h2>
+                    <!-- <span>Sales Manager</span> -->
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <i class="fa-solid fa-database" id="fas2"></i>
+                        <img src="img1" alt="" draggable="false">
+                    </div>
+                    <h2>Database Storage <br>Systems</h2>
+                    <!-- <span>Web Developer</span> -->
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <i class="fa-solid fa-award" id="fas3"></i>
+                        <img src="img1" alt="" draggable="false">
+                    </div>
+                    <h2>Platform To Be<br>Recognized</h2>
+                    <!-- <span>Online Teacher</span> -->
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <i class="fa-solid fa-cash-register" id="fas4"></i>
+                        <img src="img1" alt="" draggable="false">
+                    </div>
+                    <h2>Easy Payment<br>System</h2>
+                    <!-- <span>Freelancer</span> -->
+                </li>
+
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+        <script src="/script/slider.js"></script>
+
+    </section>
+
+    <!-- facility for lawyer ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">created by <span>J.S.K</span> | © all rights reserved.</div>
+    </section>
+
+    <!-- footer section ends -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/script/land_js.js"></script>
+    <script src="index.js"></script>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "949f626d-2667-4daa-9fe2-f0dbcd272d2e",
+            apiHost: "https://sih-flowise.onrender.com",
+            chatflowConfig: {
+                topK: 2
+            },
+            theme: {
+                button: {
+                    backgroundColor: "#914a34c6",
+                    right: 20,
+                    bottom: 20,
+                    size: "medium",
+                    iconColor: "white",
+                    // customIconSrc: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+                },
+                chatWindow: {
+                    welcomeMessage: "Hello! I am your law assistant How can i assist you today?",
+                    backgroundColor: "#ffffff",
+                    height: 600,
+                    width: 500,
+                    fontSize: 16,
+                    poweredByTextColor: "#fff",
+                    botMessage: {
+                        backgroundColor: "#CBA76F",
+                        textColor: "#ffffff",
+                        showAvatar: true,
+                        // avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
+                    },
+                    userMessage: {
+                        backgroundColor: "#914a34c6",
+                        textColor: "#ffffff",
+                        showAvatar: true,
+                        // avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                    },
+                    textInput: {
+                        placeholder: "Type your question",
+                        backgroundColor: "#ffffff",
+                        textColor: "#303235",
+                        sendButtonColor: "#914a34c6",
+                    }
+                }
+            }
+        })
+    </script>
+</body> 
+
+</html>
